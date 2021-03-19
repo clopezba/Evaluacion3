@@ -11,7 +11,11 @@ public class Revista extends Biblioteca{
 
 	@Override
 	public String toString() {
+<<<<<<< HEAD
 		return "\nRevista: " + super.toString() + "\nNúmero: " + numero;
+=======
+		return "Revista: " + super.toString() + "\nNúmero: " + numero;
+>>>>>>> refs/remotes/origin/master
 	}
 	
 	
