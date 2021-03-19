@@ -6,7 +6,6 @@ import java.util.GregorianCalendar;
 import java.util.Scanner;
 import java.time.LocalDate;
 
-import ejemplos.Fecha;
 
 public class Ej1 {
 

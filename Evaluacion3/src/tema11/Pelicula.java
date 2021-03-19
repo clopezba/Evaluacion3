@@ -18,7 +18,7 @@ public class Pelicula extends Multimedia{
 
 	@Override
 	public String toString() {
-		return "\n\nPelicula: " + super.toString() + ", \nActorPpal = " + actorPpal + ", \nactrizPpal = " + actrizPpal;
+		return "\nPelicula: " + super.toString() + ", \nActorPpal = " + actorPpal + ", \nactrizPpal = " + actrizPpal;
 	}
 	
 	
