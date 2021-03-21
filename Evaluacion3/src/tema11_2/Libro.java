@@ -1,5 +1,6 @@
 package tema11_2;
 
+<<<<<<< HEAD
 public class Libro extends Biblioteca implements Prestable{
 	private boolean prestado;
 
@@ -42,6 +43,21 @@ public class Libro extends Biblioteca implements Prestable{
 		return this.prestado;
 			
 		
+=======
+public class Libro extends Biblioteca{
+	private boolean prestado = false;
+
+	//Constructor parametrizado
+	public Libro(int codigo, String titulo, int anyoPubli, boolean prestado) {
+		super(codigo, titulo, anyoPubli);
+		this.prestado = prestado;
+		}
+
+	//toString
+	@Override
+	public String toString() {
+		return "Libro: "+ super.toString() + "\nPrestado: " + prestado;
+>>>>>>> refs/remotes/origin/master
 	}
 	
 }
